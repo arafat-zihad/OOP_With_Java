@@ -4,6 +4,13 @@ class Teacher{
     String gender;
     int phone;
 
+
+    void setinfo(String n,int a, String m, int ph){
+        name = n;
+        age = a;
+        gender = m;
+        phone = ph;
+    }
     void show(){
     System.out.println("Name: " + name);
     System.out.println("Age: "+ age);
@@ -12,7 +19,7 @@ class Teacher{
     }
 }
 
-public class Method{ 
+public class Method_paramiterised{ 
 public static void main(String[] args){
     System.out.println("");
     //Without method
@@ -33,10 +40,8 @@ System.out.println("");
     Teacher teacher2;
     teacher2 = new Teacher();
 
-    teacher2.name = "Ruhul Amin";
-    teacher2.age = 28;
-    teacher2.gender = "Male";
-    teacher2.phone = 10344242;
+    //Parameterised method
+    teacher2.setinfo("Ruhul Amin", 30, "Male", 13423842);
 
     teacher2.show();
 }
