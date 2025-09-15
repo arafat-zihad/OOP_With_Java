@@ -1,3 +1,7 @@
+
+/* Create a Class called Teacher, then make 2 objects (teacher1, 
+teacher2) from this class and print them.*/
+
 class Teacher{
     String name;
     int age;

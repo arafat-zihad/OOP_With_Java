@@ -1,0 +1,26 @@
+What is Class?
+Class is a blueprint/template for creating an object. It doesn't take space in memory, it tells you what type of information an object will hold and what it can do.
+Component:
+Data -> Properties / Attributes / What type of information
+Method -> Behavior / Function / What it can do
+
+
+Example: 
+If a class is Car, 
+Data -> color, model, speed 
+Method -> break, accelerate 
+
+	Class Car {
+		color;	 	//data
+		model; 		//data 
+		speed; 		//data
+		break();		//method
+		Accelerate	//method 
+}
+
+What is an Object?
+
+An object is an instance (Sample of class) of a class that is created by using class blueprint. It takes up space like other variables in memory. 
+
+Syntax: 
+	Classname obj.name = new Classname();
