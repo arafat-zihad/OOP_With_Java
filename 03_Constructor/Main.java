@@ -4,13 +4,19 @@ class Teacher{
     String gender;
     int phone;
 
-    //Constructor
+    //Parameterized Constructor
     Teacher(String n, int a, String g, int ph) {
         name = n;
         age = a;
         gender = g;
         phone = ph;
     }
+
+    //Default Constructor
+    Teacher() {
+        System.out.println("\nNo value");
+    }
+    
 
     void show(){        
         System.out.println("\n");
@@ -31,6 +37,10 @@ public class Main{
         //Object 2
         Teacher teacher2 = new Teacher("Ruhul Amin", 30, "Male", 349242425);
         teacher2.show();
+
+        //Object 3
+        Teacher teacher3 = new Teacher();
+        teacher3.show(); //Print null
 
     }
 }
