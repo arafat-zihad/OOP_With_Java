@@ -3,7 +3,6 @@
 class MessagePrinter{
     void printMessage(String name){
         System.out.println("Hello " + name);
-        
     }
 }
 
