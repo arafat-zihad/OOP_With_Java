@@ -9,8 +9,7 @@ class MessagePrinter{
 public class Main{
     public static void main(String[] args) {
         MessagePrinter obj = new MessagePrinter();
-        String name = "Zihad";
-        obj.printMessage(name);
+        obj.printMessage("Zihad");
 
     }
 }
