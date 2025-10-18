@@ -6,7 +6,7 @@ public class PhoneApp{
         
         p.call("0138129482");
 
-        SmartPhone sp = new SmartPhone(13);
+        SmartPhone sp = new SmartPhone(13.3, "01303030303");
         sp.selfie();
     }
 }

@@ -11,10 +11,5 @@ public class Main{
         Employee e6 = new Employee("Kate", 28);
 
         System.out.println(e1.name);
-
-
-
-        
-
     }
 }
