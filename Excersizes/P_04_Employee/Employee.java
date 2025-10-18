@@ -7,18 +7,19 @@ class Employee{
         this.name = name;
     }
 
+    void Employee(){ 
+        name = "Unnamed";
+        age = 22;
+        department = "Sales";
+    }
+
+    //Added a method for e2.Employee;
     void Employee(String name){ 
         this.name = name;
         age = 22;
         department = "Sales";
-    } 
-
-    //Added a method for e1.Employee;
-    void Employee(){ 
-        this.name = name;
-        age = 22;
-        department = "Sales";
-    } 
+    }
+     
     Employee(String name, int age){
         this.name = name;
         this.age = age;

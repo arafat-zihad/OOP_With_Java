@@ -1,11 +1,11 @@
 class Vehicle{
-    String model; 
+    static String model; 
     
     Vehicle(String model){
-        this.model = model; // corrected
+        Vehicle.model = model; // corrected
     }
 
-    void showModel(){ // Corrected (removed static bcoz String model is not satic)
+    static void showModel(){ //Corrected
         System.out.println("Model: " + model);
     }
 }

@@ -5,8 +5,8 @@ class Car extends Vehicle{
         this.engine = engine; // corrected
     }
 
-    void showModel(){
-        System.out.println("Model: " + model); // use instance field, not Vehicle.model
+    static void showModel(){
+        System.out.println("Model: " + model); // corrected
     }
 }
 

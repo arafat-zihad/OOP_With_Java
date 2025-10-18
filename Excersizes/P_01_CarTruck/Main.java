@@ -6,10 +6,9 @@ public class Main{
 
         Car myCar = (Car) myTruck;
         Car badTruck = (Truck) anotherTruck;
-
-        ((Truck)anotherTruck).loadTruck();
-        myCar.startEngine();
+        
         myTruck.loadTruck();
+        myCar.startEngine();
         System.out.println("loadCapacity");
     }
 }
