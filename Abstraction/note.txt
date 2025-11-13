@@ -1,0 +1,4 @@
+Abstraction is the process of hiding certain details
+and essential information to the user.
+
+Abstraction can be achived with either abstract classes or interfaces.

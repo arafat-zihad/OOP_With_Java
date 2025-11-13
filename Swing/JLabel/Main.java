@@ -1,4 +1,7 @@
 
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
@@ -17,13 +20,21 @@ public class Main{
         // frame.setLayout(new FlowLayout());
         frame.setLayout(null);
 
-        JLabel label1 = new JLabel();
-        label1.setText("Arafat Islam Zihad");
-        label1.setBounds(10, 10, 150, 20);
+        ImageIcon image = new ImageIcon("image.jpg");
+
+        JLabel label1 = new JLabel(); // crate a level
+        label1.setText("Arafat Islam Zihad"); // set text of lable
+        label1.setBounds(10, 10, 200, 20);
+        // label1.setIcon(image);
+        label1.setFont(new Font("MV Boli", Font.PLAIN, 20)); // set font of text
+        label1.setForeground(Color.BLUE); // Change color
+        label1.setIconTextGap(55); //set gap of text to image
+        // label1.setBackground(Color.BLACK); // set background color
+        // label1.setOpaque(true); //display backgrond color
         frame.add(label1);
 
         JLabel label2 = new JLabel();
-        label2.setText("ID: 241-115-052");
+        label2.setText("ID: 241-115-052"); 
         label2.setBounds(10, 30, 150, 20);
         frame.add(label2);
 
