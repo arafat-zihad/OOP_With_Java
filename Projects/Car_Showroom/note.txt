@@ -1,2 +1,14 @@
-Classes -> Showroom, Empolyees, Car
+Classes -> Showroom, Employees, Car
 Interface -> Utility
+
+
+                    Showroom
+                Employees     Cars
+
+Main Class:
+- Add Showroom
+- Add Employees
+- Add Car
+- Get Showroom
+- Get Employees
+- Get Car
