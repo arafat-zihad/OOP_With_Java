@@ -1,7 +1,7 @@
 class Car{
     String brand;
     Car(String b){
-        this.brand = b;
+        brand = b;
     }
     void startEngine(){
         System.out.println("Engine started for car: " + brand);

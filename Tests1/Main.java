@@ -6,3 +6,16 @@ public class Main{
         obj.add(2.0, 3.0);
     }
 }
+class A{
+    int x, y;
+    A(int x, int y){ 
+    this.x = x;
+    this.y = y;
+    }
+class B extends A { 
+    int z;
+    B(int x, int y, int z) { 
+        super(x, y); // Calls superclass 
+        this.z =z;
+     }
+}
