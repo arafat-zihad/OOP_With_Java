@@ -1,5 +1,5 @@
-public class Refrigerator extends Appliance{
+class Refrigerator extends Appliance{
     void operate(){
-        System.out.println("Cooling food");
+        System.out.println("Cooling food..");
     }
 }

@@ -2,23 +2,18 @@ abstract class Appliance{
     String brand;
     boolean isOn;
 
-    public Appliance(String brand) {
+    public Appliance(String brand, boolean isOn) {
         this.brand = brand;
-        this.isOn = false;
+        this.isOn = isOn;
     }
-
-    
-
 
     abstract void operate();
 
     void powerSwitch(){
-        isOn = !isOn;
         if(isOn){
             System.out.println("On");
         } else{
             System.out.println("OFF");
-
         }
     }
 }

@@ -1,6 +1,8 @@
-public class WashingMachine extends Appliance{
-    void operate(){
-        System.out.println("Washing clothes");
-    }
+class WashingMachine extends Appliance{
 
+    @Override
+    void operate() {
+        System.out.println("Waching Clothes...");
+    }
+    
 }
